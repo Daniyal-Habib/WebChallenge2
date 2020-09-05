@@ -1,0 +1,95 @@
+@media screen and (min-width: 768px) {
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 43%;
+  }
+  header .cta {
+    display: block;
+  }
+  header .hamburger {
+    display: none;
+  }
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url(./images/bg-intro-desktop.svg);
+    background-position: center right -650px;
+    background-size: 70em;
+    background-repeat: no-repeat;
+    overflow: visible;
+    padding: 5%;
+  }
+  .main .main-left {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    margin-top: 80px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-right: 3em;
+  }
+  .main .main-left h1 {
+    text-align: left;
+  }
+  .main .main-left p {
+    text-align: left;
+  }
+  .main .main-right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    top: 0;
+    width: 80%;
+  }
+  .main .main-right img {
+    position: relative;
+    bottom: -120px;
+  }
+  .purpose {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 10%;
+  }
+  .purpose h1 {
+    text-align: left;
+    width: 100%;
+    margin-top: 0;
+  }
+  .purpose p {
+    text-align: left;
+    width: 80%;
+  }
+  .purpose .purpose-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .purpose .purpose-items .purpose-item {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 5px;
+  }
+  .purpose .purpose-items .purpose-item p {
+    width: 100%;
+  }
+  .article {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .article .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

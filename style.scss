@@ -1,3 +1,4 @@
+@import "tablet";
 $Dark-Blue: hsl(233, 26%, 24%);
 $Lime-Green: hsl(136, 65%, 51%);
 $Bright-Cyan: hsl(192, 70%, 51%);
@@ -26,9 +27,21 @@ header {
 	// margin-bottom: 15px;
 	nav {
 		display: none;
+		li {
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: $Grayish-Blue;
+			}
+		}
 	}
 	.cta {
 		display: none;
+		text-decoration: none;
+		color: $White;
+		padding: 12px 30px;
+		border-radius: 50px;
+		background: linear-gradient(to right, $Lime-Green, $Bright-Cyan);
 	}
 }
 .main {

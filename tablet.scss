@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) {
+	header {
+		nav {
+			display: flex;
+			justify-content: space-between;
+			width: 43%;
+		}
+		.cta {
+			display: block;
+		}
+		.hamburger {
+			display: none;
+		}
+	}
+	.main {
+		display: flex;
+		background: url(./images/bg-intro-desktop.svg);
+		background-position: center right -650px;
+		background-size: 70em;
+		background-repeat: no-repeat;
+		overflow: visible;
+		padding: 5%;
+		.main-left {
+			order: 0;
+			margin-top: 80px;
+			align-items: flex-start;
+			padding-right: 3em;
+			h1 {
+				text-align: left;
+			}
+			p {
+				text-align: left;
+			}
+		}
+		.main-right {
+			order: 1;
+			top: 0;
+			width: 80%;
+			img {
+				position: relative;
+				bottom: -120px;
+			}
+		}
+	}
+	.purpose {
+		align-items: flex-start;
+		padding: 10%;
+		h1 {
+			text-align: left;
+			width: 100%;
+			margin-top: 0;
+		}
+		p {
+			text-align: left;
+			width: 80%;
+		}
+		.purpose-items {
+			display: flex;
+			.purpose-item {
+				align-items: flex-start;
+				margin: 0 5px;
+				p {
+					width: 100%;
+				}
+			}
+		}
+	}
+	.article {
+		align-items: flex-start;
+		.cards {
+			display: flex;
+		}
+	}
+}
