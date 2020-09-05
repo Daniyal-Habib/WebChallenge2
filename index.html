@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style.css" />
 		<link
+			href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
 			rel="stylesheet"
 			href="path/to/font-awesome/css/font-awesome.min.css"
 		/>
@@ -18,21 +22,26 @@
 
 			<!-- Header Links -->
 			<nav>
-				<li>
-					<a href="#" class="nav-links">Home</a>
-					<a href="#" class="nav-links">About</a>
-					<a href="#" class="nav-links">Contact</a>
-					<a href="#" class="nav-links">Blog</a>
-					<a href="#" class="nav-links">Careers</a>
-				</li>
+				<li><a href="#" class="nav-links">Home</a></li>
+				<li><a href="#" class="nav-links">About</a></li>
+				<li><a href="#" class="nav-links">Contact</a></li>
+				<li><a href="#" class="nav-links">Blog</a></li>
+				<li><a href="#" class="nav-links">Careers</a></li>
 			</nav>
 
 			<!-- Header Call to action -->
 			<a href="#" class="cta">Request Invite</a>
+			<!-- Hamburger icon -->
+			<img src="./images/icon-hamburger.svg" alt="icon-hamburger" />
 		</header>
 
 		<!-- Main Section -->
 		<section class="main">
+			<!-- Right side of the main section contain the mockup images -->
+			<div class="main-right">
+				<img src="./images/image-mockups.png" alt="" />
+			</div>
+
 			<!-- Left side of the main section -->
 			<div class="main-left">
 				<!-- Main title -->
@@ -43,11 +52,6 @@
 					more.
 				</p>
 				<a href="#" class="cta">Request Invite</a>
-			</div>
-
-			<!-- Right side of the main section contain the mockup images -->
-			<div class="main-right">
-				<img src="./images/image-mockups.png" alt="" />
 			</div>
 		</section>
 
@@ -61,9 +65,9 @@
 			</p>
 
 			<!-- Parent div for the card section -->
-			<div class="purpose-item">
+			<div class="purpose-items">
 				<!-- Individual card  -->
-				<div class="purpose-items">
+				<div class="purpose-item">
 					<img src="./images/icon-online.svg" alt="" />
 					<h3>Online Banking</h3>
 					<p>
@@ -74,7 +78,7 @@
 
 				<!-- Individual card  -->
 
-				<div class="purpose-items">
+				<div class="purpose-item">
 					<img src="./images/icon-budgeting.svg" alt="" />
 					<h3>Simple Budgeting</h3>
 					<p>
@@ -85,7 +89,7 @@
 
 				<!-- Individual card  -->
 
-				<div class="purpose-items">
+				<div class="purpose-item">
 					<img src="./images/icon-onboarding.svg" alt="" />
 					<h3>Fast Onboarding</h3>
 					<p>
@@ -96,7 +100,7 @@
 
 				<!-- Individual card  -->
 
-				<div class="purpose-items">
+				<div class="purpose-item">
 					<img src="./images/icon-api.svg" alt="" />
 					<h3>Open API</h3>
 					<p>
@@ -118,48 +122,57 @@
 
 				<div class="card">
 					<img src="./images/image-currency.jpg" alt="" />
-					<p>By Claire Robinson</p>
-					<h3>Receive money in any currency with no fees</h3>
-					<p>
-						The world is getting smaller and we’re becoming more mobile. So why
-						should you be forced to only receive money in a single …
-					</p>
+					<div class="card-content">
+						<p class="author">By Claire Robinson</p>
+						<h3>Receive money in any currency with no fees</h3>
+						<p>
+							The world is getting smaller and we’re becoming more mobile. So
+							why should you be forced to only receive money in a single …
+						</p>
+					</div>
 				</div>
 
 				<!-- Individual card -->
 
 				<div class="card">
 					<img src="./images/image-restaurant.jpg" alt="" />
-					<p>By Wilson Hutton</p>
-					<h3>Treat yourself without worrying about money</h3>
-					<p>
-						Our simple budgeting feature allows you to separate out your
-						spending and set realistic limits each month. That means you ...
-					</p>
+					<div class="card-content">
+						<p class="author">By Wilson Hutton</p>
+						<h3>Treat yourself without worrying about money</h3>
+						<p>
+							Our simple budgeting feature allows you to separate out your
+							spending and set realistic limits each month. That means you ...
+						</p>
+					</div>
 				</div>
 
 				<!-- Individual card -->
 
 				<div class="card">
 					<img src="./images/image-plane.jpg" alt="" />
-					<p>By Wilson Hutton</p>
-					<h3>Take your Easybank card wherever you go</h3>
-					<p>
-						We want you to enjoy your travels. This is why we don’t charge any
-						fees on purchases while you’re abroad. We’ll even show you ...
-					</p>
+					<div class="card-content">
+						<p class="author">By Wilson Hutton</p>
+						<h3>Take your Easybank card wherever you go</h3>
+						<p>
+							We want you to enjoy your travels. This is why we don’t charge any
+							fees on purchases while you’re abroad. We’ll even show you ...
+						</p>
+					</div>
 				</div>
 
 				<!-- Individual card -->
 
 				<div class="card">
 					<img src="./images/image-confetti.jpg" alt="" />
-					<p>By Claire Robinson</p>
-					<h3>Our invite-only Beta accounts are now live!</h3>
-					<p>
-						After a lot of hard work by the whole team, we’re excited to launch
-						our closed beta. It’s easy to request an invite through the site ...
-					</p>
+					<div class="card-content">
+						<p class="author">By Claire Robinson</p>
+						<h3>Our invite-only Beta accounts are now live!</h3>
+						<p>
+							After a lot of hard work by the whole team, we’re excited to
+							launch our closed beta. It’s easy to request an invite through the
+							site ...
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -169,14 +182,24 @@
 			<!-- Left section of the footer -->
 			<div class="footer-left">
 				<div class="logo">
-					<img src="./images/logo.svg" alt="" />
+					<img src="./images/logo white.svg" alt="" />
 				</div>
 				<div class="social-media">
-					<img src="./images/icon-facebook.svg" alt="" />
-					<img src="./images/icon-youtube.svg" alt="" />
-					<img src="./images/icon-twitter.svg" alt="" />
-					<img src="./images/icon-pinterest.svg" alt="" />
-					<img src="./images/icon-instagram.svg" alt="" />
+					<div class="social-media-icon">
+						<img src="./images/icon-facebook.svg" alt="" />
+					</div>
+					<div class="social-media-icon">
+						<img src="./images/icon-youtube.svg" alt="" />
+					</div>
+					<div class="social-media-icon">
+						<img src="./images/icon-twitter.svg" alt="" />
+					</div>
+					<div class="social-media-icon">
+						<img src="./images/icon-pinterest.svg" alt="" />
+					</div>
+					<div class="social-media-icon">
+						<img src="./images/icon-instagram.svg" alt="" />
+					</div>
 				</div>
 			</div>
 			<!-- Nav links of the footer section -->
