@@ -40,7 +40,7 @@ header .cta {
   background-position: center top -230px;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-color: whitesmoke;
+  background-color: #f2f2f2;
 }
 
 .main .main-right {
@@ -95,7 +95,7 @@ header .cta {
 }
 
 .purpose {
-  background: #3d5e8f;
+  background: #e7eaee;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,7 +153,7 @@ header .cta {
 }
 
 .article {
-  background: whitesmoke;
+  background: #f2f2f2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
