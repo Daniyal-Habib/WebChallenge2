@@ -40,7 +40,7 @@ header .cta {
   background-position: center top -230px;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-color: #f9f9f9;
+  background-color: whitesmoke;
 }
 
 .main .main-right {
@@ -95,7 +95,7 @@ header .cta {
 }
 
 .purpose {
-  background: #f3f4f6;
+  background: #edeff2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,11 +115,13 @@ header .cta {
   font-weight: 400;
   margin-top: 50px;
   margin-bottom: 40px;
+  width: 90%;
 }
 
 .purpose p {
   color: #9698a6;
   text-align: center;
+  width: 90%;
 }
 
 .purpose .purpose-items {
@@ -151,7 +153,7 @@ header .cta {
 }
 
 .article {
-  background: #f9f9f9;
+  background: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
