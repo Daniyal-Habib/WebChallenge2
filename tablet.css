@@ -81,5 +81,65 @@
   .purpose .purpose-items .purpose-item p {
     width: 100%;
   }
+  .article {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 10%;
+  }
+  .article h1 {
+    margin-top: 0;
+  }
+  .article .cards {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 5%;
+  }
+  .article .cards .card {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .article .cards .card .card-img img {
+    width: 100%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5%;
+  }
+  footer .footer-left {
+    padding: 0;
+    width: 30%;
+  }
+  footer .footer-left .logo {
+    width: 80%;
+  }
+  footer .footer-left .social-media {
+    width: 100%;
+  }
+  footer nav {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  footer nav a {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  footer .footer-right {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
 }
 /*# sourceMappingURL=tablet.css.map */
