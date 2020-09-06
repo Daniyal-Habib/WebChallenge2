@@ -81,15 +81,5 @@
   .purpose .purpose-items .purpose-item p {
     width: 100%;
   }
-  .article {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .article .cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 /*# sourceMappingURL=tablet.css.map */
