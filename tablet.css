@@ -24,22 +24,29 @@
     background-repeat: no-repeat;
     overflow: visible;
     padding: 5%;
+    height: 50vh;
   }
   .main .main-left {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
-    margin-top: 0px;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
     padding-right: 3em;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main .main-left h1 {
     text-align: left;
   }
   .main .main-left p {
     text-align: left;
+  }
+  .main .main-left a {
+    margin: 0;
   }
   .main .main-right {
     -webkit-box-ordinal-group: 2;

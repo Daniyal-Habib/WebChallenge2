@@ -34,12 +34,18 @@
         -ms-flex-align: start;
             align-items: flex-start;
     padding-right: 3em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .main .main-left h1 {
     text-align: left;
   }
   .main .main-left p {
     text-align: left;
+  }
+  .main .main-left a {
+    margin: 0;
   }
   .main .main-right {
     -webkit-box-ordinal-group: 2;
