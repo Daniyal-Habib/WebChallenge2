@@ -1,5 +1,68 @@
 @media screen and (min-width: 1440px) {
 	header {
 		width: 80%;
+		.logo {
+			width: 13em;
+			img {
+				width: 100%;
+			}
+		}
+		nav {
+			a {
+				font-size: 20px;
+			}
+		}
+		.cta {
+			font-size: 22px;
+		}
+	}
+	.main {
+		padding: 10%;
+		height: 80vh;
+		background-size: 87em;
+		background-position: center right -380px;
+
+		.main-left {
+			justify-content: space-around;
+			padding-right: 13em;
+			h1 {
+				font-size: 55px;
+			}
+			p {
+				font-size: 20px;
+			}
+			a {
+				font-size: 22px;
+				padding: 12px 40px;
+			}
+		}
+		.main-right {
+			position: relative;
+			right: -150px;
+			img {
+				bottom: 130px;
+			}
+		}
+	}
+	.article {
+		.cards {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+	}
+	footer {
+		height: 20vh;
+		padding: 0 10%;
+		.footer-left {
+			width: 20%;
+			margin-right: 6em;
+			align-items: flex-start;
+		}
+		nav {
+			column-gap: 2em;
+			place-items: flex-start;
+		}
+		.footer-right {
+			margin-left: auto;
+		}
 	}
 }

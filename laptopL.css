@@ -2,5 +2,68 @@
   header {
     width: 80%;
   }
+  header .logo {
+    width: 13em;
+  }
+  header .logo img {
+    width: 100%;
+  }
+  header nav a {
+    font-size: 20px;
+  }
+  header .cta {
+    font-size: 22px;
+  }
+  .main {
+    padding: 10%;
+    height: 80vh;
+    background-size: 87em;
+    background-position: center right -380px;
+  }
+  .main .main-left {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-right: 13em;
+  }
+  .main .main-left h1 {
+    font-size: 55px;
+  }
+  .main .main-left p {
+    font-size: 20px;
+  }
+  .main .main-left a {
+    font-size: 22px;
+    padding: 12px 40px;
+  }
+  .main .main-right {
+    position: relative;
+    right: -150px;
+  }
+  .main .main-right img {
+    bottom: 130px;
+  }
+  .article .cards {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  footer {
+    height: 20vh;
+    padding: 0 10%;
+  }
+  footer .footer-left {
+    width: 20%;
+    margin-right: 6em;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer nav {
+    -webkit-column-gap: 2em;
+            column-gap: 2em;
+    place-items: flex-start;
+  }
+  footer .footer-right {
+    margin-left: auto;
+  }
 }
 /*# sourceMappingURL=laptopL.css.map */

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EACnC,AAAA,KAAK,CAAC;IACL,eAAe,EAAE,IAAI;IACrB,MAAM,EAAE,IAAI;GAOZ",
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EACnC,AAAA,KAAK,CAAC;IACL,eAAe,EAAE,IAAI;IACrB,MAAM,EAAE,IAAI;GACZ",
     "sources": [
         "LaptopS.scss"
     ],
