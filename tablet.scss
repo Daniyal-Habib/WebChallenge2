@@ -20,9 +20,10 @@
 		background-repeat: no-repeat;
 		overflow: visible;
 		padding: 5%;
+		// justify-content: center;
 		.main-left {
 			order: 0;
-			margin-top: 80px;
+			margin-top: 0px;
 			align-items: flex-start;
 			padding-right: 3em;
 			h1 {
@@ -38,7 +39,7 @@
 			width: 80%;
 			img {
 				position: relative;
-				bottom: -120px;
+				// bottom: -120px;
 			}
 		}
 	}
@@ -96,8 +97,6 @@
 			width: 30%;
 			.logo {
 				width: 80%;
-				img {
-				}
 			}
 			.social-media {
 				width: 100%;

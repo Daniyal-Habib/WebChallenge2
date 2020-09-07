@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EACnC,AAAA,MAAM,CAAC;IACN,KAAK,EAAE,GAAG;GACV",
+    "sources": [
+        "laptopL.scss"
+    ],
+    "names": [],
+    "file": "laptopL.css"
+}
