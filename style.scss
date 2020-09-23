@@ -8,6 +8,7 @@ $Grayish-Blue: hsl(233, 8%, 62%);
 $Light-Grayish-Blue: hsl(220, 16%, 92%);
 $Light-Gray: hsl(0, 0%, 95%);
 $White: hsl(0, 0%, 100%);
+$body-overlay: rgba(0, 0, 0, 0.8);
 *,
 *::before,
 *::after {
@@ -99,9 +100,6 @@ header {
 // On Menu Button Clicked
 .active {
 	.hamburger {
-		position: fixed;
-		right: 20px;
-		top: 25px;
 		.line {
 			background-color: white;
 		}

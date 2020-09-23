@@ -366,12 +366,6 @@ header .hamburger .line {
   border-radius: 50px;
 }
 
-.active .hamburger {
-  position: fixed;
-  right: 20px;
-  top: 25px;
-}
-
 .active .hamburger .line {
   background-color: white;
 }
