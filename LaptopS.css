@@ -1,7 +1,10 @@
 @media screen and (min-width: 1024px) {
+  header nav ul li {
+    margin: 0 30px;
+  }
   .main {
     background-size: 78em;
     height: 30em;
   }
 }
-/*# sourceMappingURL=laptopS.css.map */
+/*# sourceMappingURL=LaptopS.css.map */

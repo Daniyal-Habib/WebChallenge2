@@ -2,8 +2,24 @@
 	header {
 		nav {
 			display: flex;
+			position: relative;
 			justify-content: space-between;
-			width: 43%;
+			width: 40%;
+			height: auto;
+			background-color: white;
+			ul {
+				display: flex;
+				li {
+					margin: 0 8px;
+					a {
+						color: hsl(233, 8%, 62%);
+						font-size: 16px;
+						&:after {
+							background-color: hsl(233, 8%, 62%);
+						}
+					}
+				}
+			}
 		}
 		.cta {
 			display: block;

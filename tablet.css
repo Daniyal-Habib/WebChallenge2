@@ -3,10 +3,28 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 43%;
+    width: 40%;
+    height: auto;
+    background-color: white;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav ul li {
+    margin: 0 8px;
+  }
+  header nav ul li a {
+    color: #9698a6;
+    font-size: 16px;
+  }
+  header nav ul li a:after {
+    background-color: #9698a6;
   }
   header .cta {
     display: block;
