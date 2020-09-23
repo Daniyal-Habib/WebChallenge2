@@ -354,13 +354,13 @@ header .hamburger .line {
 }
 
 .active .hamburger .line-1 {
-  -webkit-transform: rotate(-45deg) translate(-8px, 4px);
-          transform: rotate(-45deg) translate(-8px, 4px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 4px);
+          transform: rotate(-45deg) translate(-9px, 4px);
 }
 
 .active .hamburger .line-3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -4px);
-          transform: rotate(45deg) translate(-8px, -4px);
+  -webkit-transform: rotate(45deg) translate(-9px, -4px);
+          transform: rotate(45deg) translate(-9px, -4px);
 }
 
 .active nav {
