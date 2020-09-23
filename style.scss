@@ -99,6 +99,9 @@ header {
 // On Menu Button Clicked
 .active {
 	.hamburger {
+		position: fixed;
+		right: 20px;
+		top: 25px;
 		.line {
 			background-color: white;
 		}
